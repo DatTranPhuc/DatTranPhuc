@@ -13,6 +13,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: zenghongtu/profile-3d-contrib@latest
+      - uses: yoshi389111/github-profile-3d-contrib@latestt
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
